@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            
+            "name": "Mac",
+            "includePath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+                "/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/include",
+                "${workspaceRoot}/controlSUITE/device_support/f2806x/v136/F2806x_common/include",
+                "${workspaceRoot}/controlSUITE/device_support/f2806x/v136/F2806x_headers/include",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"
+                ]
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include",
+                "c:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.3.LTS/include",
+                "${workspaceRoot}/controlSUITE/device_support/f2806x/v136/F2806x_common/include",
+                "${workspaceRoot}/controlSUITE/device_support/f2806x/v136/F2806x_headers/include",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}

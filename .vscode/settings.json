@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "xlocale": "c",
+        "xstring": "c",
+        "ios": "c",
+        "system_error": "c",
+        "xiosbase": "c",
+        "string.h": "c",
+        "limits": "c",
+        "synchronization.h": "c",
+        "initializer_list": "c",
+        "xutility": "c",
+        "event_controller.h": "c"
+    }
+}
